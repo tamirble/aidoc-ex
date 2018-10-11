@@ -8,6 +8,7 @@
       owner: root
       group: root
       mode: 0755
+    become: True
 
   - name: create folder for script
     file:
