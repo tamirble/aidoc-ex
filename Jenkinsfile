@@ -7,6 +7,6 @@ checkout([
                 [$class: 'CleanBeforeCheckout']
         ]
 ])
-  echo("hello")
-  ansiblePlaybook("playbook.yml")
+  sh("ls")
+  ansiblePlaybook("ansible/update_server.yml")
 }

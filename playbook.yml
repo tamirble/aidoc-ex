@@ -1,3 +1,6 @@
 ---
-- debug:
-    msg: "This is an Ansible playbook"
+- hosts: localhost
+  connection: local
+  tasks:
+  - debug:
+      msg: "This is an Ansible playbook"

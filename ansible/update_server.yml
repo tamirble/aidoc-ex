@@ -1,1 +1,13 @@
 ---
+- hosts: s3-sync-server
+  tasks:
+  - debug:
+      msg: "This is an Ansible playbook"
+
+
+# update cron
+
+  # create folder for script (and chown)
+# update script
+
+## sudo service cron reload
