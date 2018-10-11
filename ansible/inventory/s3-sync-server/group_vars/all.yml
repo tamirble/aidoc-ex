@@ -1,5 +1,5 @@
 ---
-host_key_checking: False
 ansible_user: "ubuntu"
+
 origin_s3_bucket: "aidocinterviews-source01"
 target_s3_bucket: "aidocinterviews-source02"

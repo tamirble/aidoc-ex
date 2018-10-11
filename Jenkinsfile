@@ -11,7 +11,8 @@ node {
     ansiblePlaybook(
             playbook: "ansible/update_server.yml",
             inventory: "ansible/inventory/s3-sync-server/",
-            credentialsId: "ec2-key-file"
+            credentialsId: "ec2-key-file",
+            extras: "-e 'host_key_checking=False'"
     )
 }
 
