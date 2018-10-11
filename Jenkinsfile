@@ -10,7 +10,8 @@ node {
     sh("ls")
     ansiblePlaybook(
             playbook: "ansible/update_server.yml",
-            credentialsId: "aidoc-aws-tamirble-key",
-            inventory: "ansible/inventory/s3-sync-server/"
+            inventory: "ansible/inventory/s3-sync-server/",
+            credentialsId: "ec2-key-file"
     )
 }
+
