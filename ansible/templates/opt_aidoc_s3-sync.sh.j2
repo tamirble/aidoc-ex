@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-aws s3 sync s3://{{origin_s3_bucket}} s3://{{target_s3_bucket}}
+aws s3 sync s3://{{origin_s3_bucket_1}} s3://{{target_s3_bucket}}/{{origin_s3_bucket_1}}
+aws s3 sync s3://{{origin_s3_bucket_2}} s3://{{target_s3_bucket}}/{{origin_s3_bucket_1}}

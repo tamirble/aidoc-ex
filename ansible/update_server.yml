@@ -22,7 +22,7 @@
   - name: copy cron job config
     template:
       src: "opt_aidoc_s3-sync.sh.j2"
-      dest: "/opt/aidoc/s3-sync.sh.j2"
+      dest: "/opt/aidoc/s3-sync.sh"
       owner: ubuntu
       group: ubuntu
       mode: 0755

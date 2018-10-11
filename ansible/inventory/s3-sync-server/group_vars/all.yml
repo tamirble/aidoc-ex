@@ -1,5 +1,6 @@
 ---
 ansible_user: "ubuntu"
 
-origin_s3_bucket: "aidocinterviews-source01"
-target_s3_bucket: "aidocinterviews-source02"
+origin_s3_bucket_1: "aidocinterviews-source01"
+origin_s3_bucket_2: "aidocinterviews-source02"
+target_s3_bucket: "aidocinterviews-target"
